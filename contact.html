@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commanders Schedule</title>
+    <link rel="stylesheet" href="football_styles.css">
+</head>
+<body>
+    <!-- Using Semantic - names that are self-explainatory -->
+    <!-- NavBar -->
+    <header class="site-header">
+        <!-- logo -->
+        <a href="index.html" class="site-logo">
+            <img id="football" src="images/football.avif" alt="logo picture">
+            Washington Schedule
+        </a>
+        <!-- links -->
+        <!-- checkbox for the menu toggle -->
+         <input type="checkbox" id="menu-toggle">
+        <!-- Lable for the check box, this will be the hamburger icon -->
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="location.html">Location</a></li>
+                <li><a href="contact.html">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="site-main">
+        <!-- Contact -->
+         <div class="contact-container">
+            <div class="contact-info">
+                <h2>Contact Us!</h2>
+                <p><strong>Phone:</strong><br>301-999-7777</p>
+                <p><strong>Email:</strong><br>commanders@gmail.com</p>
+            </div>
+         
+        <!-- Contact Form -->
+        <!-- Reliable way to center - put it in a div -->
+            <div class="form-container">
+                <h3>Or send us a message!</h3>
+                <form action="/action_page.php" class="contact-form">
+                    <label for="name">Full name:</label><br>
+                    <input type="text" id="name" name="name" placeholder="Name"><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="Email"><br>
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" placeholder="Your message..."></textarea>
+                    <button type="submit">Submit</button>
+                </form> 
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p>&copy; 2025 Event Center. All rights reserved.</p>
+
+    </footer>
+    
+</body>
+</html>
